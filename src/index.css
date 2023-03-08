@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.quiz_box{
+  height: 80vh;
+  padding: 0%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+}
+.quiz_question{
+  height: 300px;
+  width: 70%;
+  text-align: center;
+  background-color:gray;
+  display: flex;
+  flex-direction: column;
+  color:whitesmoke;
+  font-size: 1rem;
+  
+}
+.quiz-box options{
+  border-top: 1px;
+}
+.qiz_ul{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 1rem;
+  padding: 0%;
+  color: blue;
+  list-style-type: none;
+}
+.quiz_li{
+  background-color:aliceblue;
+  border-radius: 0.6cm;
+  cursor: pointer;
+  padding: 0.1rem;
+  padding: 0.5rem;
+}
+.quiz_li:hover{
+  box-shadow: rgb(212, 18, 18);
+}

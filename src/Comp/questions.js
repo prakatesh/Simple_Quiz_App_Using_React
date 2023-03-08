@@ -1,0 +1,22 @@
+export default[
+    {question: " React is a ____.",
+    options:["A . Web development Framework", "B . JavaScript Library","C . jQuery", "D . Web Server"],
+    answer: 1,
+    },
+    {question: " What of the following is used in React.js to increase performance? ",
+    options:["A . Original DOM", "B . Virtual DOM","C . Both A and B.", "D . None of the above."],
+    answer: 1,
+    },
+    {question: " Which of the following acts as the input of a class-based component? ",
+    options:["A . Class", "B . Factory","C . Render", "D . Props"],
+    answer: 3,
+    },
+    {question: " How many numbers of elements a valid react component can return? ",
+    options:["A . 1", "B . 3 ","C . 2", "D` . None of these"],
+    answer: 0,
+    },
+    {question: "  What are the two ways to handle data in React?",
+    options:["A . State & Props", "B . Services & Components","C . State & Services", "D . State & Component"],
+    answer: 0,
+    }
+    ]
